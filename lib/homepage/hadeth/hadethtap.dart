@@ -72,7 +72,19 @@ class _HadethTapState extends State<HadethTap> {
                   color: Appcolor.primaryLightColor,
                 ),
               ):
-          ListView.builder(
+          ListView.separated(
+            separatorBuilder:(context,index){
+              return provider.isDark()?
+              Divider(
+                thickness: 1,
+                color: Appcolor.yellowColor,
+              )
+                  :
+              Divider(
+                thickness: 1,
+                color: Appcolor.primaryLightColor,
+              );
+            },
             itemBuilder: (context, index) {
               return InkWell(
                 onTap: (){

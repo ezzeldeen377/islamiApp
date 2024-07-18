@@ -12,9 +12,7 @@ import 'package:device_preview/device_preview.dart';
 void main() {
   runApp(ChangeNotifierProvider(
       create: (context)=>AppProvider(),
-      child: DevicePreview(
-        enabled:!kReleaseMode,
-        builder: (context) =>  MyApp(),)));
+      child: MyApp()));
 }
 class MyApp extends StatelessWidget {
 
