@@ -1,0 +1,23 @@
+{
+  "app_title": "islami",
+  "sura_name": "Sura Nombre",
+  "numbers_of_ayat": "Numeros de Ayat",
+  "hadeth_name": "Hadeth Nombre",
+  "quran": "El Corán",
+  "hadeth": "hadiz",
+  "sehba": "Sebha",
+  "tasbeh_number": "Tasbeh Número ",
+  "sobhan_allah": "Sobhan Allah",
+  "allah_akbr": "Allah Akbr",
+  "alhamdollah": "Alhamdollah",
+  "radio": "Radio",
+  "quran_radio": "Radio Islámica del Corán",
+  "settings":"Ajustes",
+  "language": "Idioma",
+  "english": "Inglesa",
+  "arabic": "Arábica",
+  "spanish": "Española",
+  "theme":"Tema",
+  "light": "Modo de luz",
+  "dart": "Modo oscuro"
+}
