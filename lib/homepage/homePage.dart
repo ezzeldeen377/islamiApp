@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islamic_app/homepage/hadeth/hadethtap.dart';
 import 'package:islamic_app/homepage/quran/qurantap.dart';
-import 'package:islamic_app/homepage/radiotap.dart';
+import 'package:islamic_app/homepage/radio_tap/radio_tap_view.dart';
 import 'package:islamic_app/homepage/sebhatap.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islamic_app/homepage/setting_tab.dart';
@@ -18,7 +18,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 int selecteditem=0;
 List<Widget> hometap=[
-  QuranTap(),HadethTap(),SebhaTap(),RadioTap(),SettingTab()
+  QuranTap(),HadethTap(),SebhaTap(),RadioTapView(),SettingTab()
 ];
 
   @override
